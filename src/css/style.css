@@ -1,0 +1,135 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+    color: #ffffff;
+    
+
+}
+
+.container {
+    width: 1440px;
+    height: 800px;
+    background: hsl(257, 40%, 49%) url('/src/images/bg-desktop.svg') no-repeat; 
+}
+
+.wrapper {
+    display: grid;
+    grid-template: "header header"
+        "main main"
+        "footer footer" / 1fr 1fr;
+    margin: auto 9rem;
+    height: 800px;
+    
+    
+}
+
+/* Header */
+
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Main */
+.conteudo-principal {
+    grid-area: main;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* Sec 1 */
+
+
+
+/* Sec 2 */
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 70%;
+    gap: 3rem;
+    
+    font-weight: 400;
+    margin-left: 6rem;
+
+}
+
+.text .titulo-social {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.text .text-social {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.text .register {
+    background-color: #ffffff;
+    color: hsl(257, 40%, 49%);
+    border-radius: 3rem;
+    height: 5.5rem;
+    width: 19rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    
+    box-shadow: 0px 3px 15px hsl(257deg 42% 25%);
+
+    
+}
+
+.text .register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Footer */
+.footer {
+    grid-area: footer;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer a i  {
+    margin-left: 1.6rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.footer a i:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%) ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer .face {
+    padding: 10px 15px;
+} 

@@ -1,0 +1,352 @@
+@media (max-width: 1024px) {
+    .header .logo img {
+        width: 90%;
+    }
+
+
+    .text {
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text .titulo-social {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .text .text-social {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .text .register {
+
+        height: 7rem;
+        width: 15rem;
+        font-size: 1.5rem;
+
+        margin-top: 2rem;
+
+
+
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 768px;
+        height: 1600px;
+        background: hsl(257, 40%, 49%) url('/src/images/bg-mobile.svg') no-repeat contain;
+    }
+
+    .wrapper {
+        grid-template: "header"
+            "main"
+            "footer" / 1fr;
+        margin: auto 8rem;
+        height: 1600px;
+    }
+
+
+    /* Header */
+
+    .header {
+        grid-area: header;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    /* Main */
+    .conteudo-principal {
+        grid-area: main;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+
+
+
+    /* Sec 1 */
+    .conteudo-principal .mockup img {
+        width: 100%;
+    }
+
+
+    /* Sec 2 */
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+
+        margin-top: 5rem;
+    }
+
+    .text .titulo-social {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .text .text-social {
+        font-size: 3.1rem;
+        line-height: 5rem;
+        text-align: center;
+    }
+
+    .text .register {
+
+        height: 7rem;
+        width: 40rem;
+        font-size: 2.3rem;
+
+        margin-top: 2rem;
+
+
+
+    }
+
+    /* Footer */
+
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer a i {
+        padding: 1.5rem;
+    }
+
+
+
+    .footer .face {
+        padding: 15px 20px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 426px;
+        height: 1600px;
+        background: hsl(257, 40%, 49%) url('/src/images/bg-mobile.svg') no-repeat contain;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper {
+        grid-template: "header"
+            "main"
+            "footer" / 1fr;
+        height: 1600px;
+        margin: 0;
+        width: 90%;
+    }
+
+
+    /* Header */
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .header .logo img {
+        width: 90%;
+    }
+
+
+    /* Main */
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+
+    /* Sec 1 */
+    .conteudo-principal .mockup img {
+        width: 90%;
+    }
+
+
+    /* Sec 2 */
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+        height: 100%;
+        margin-left: 0;
+        margin-top: 2rem;
+        width: 90%;
+    }
+
+    .text .titulo-social {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .text .text-social {
+        font-size: 2.35rem;
+        line-height: 4.5rem;
+        text-align: center;
+    }
+
+    .text .register {
+
+        border-radius: 4rem;
+        height: 6rem;
+        width: 30rem;
+        font-size: 2rem;
+
+        margin-top: 2rem;
+
+
+
+    }
+
+    /* Footer */
+
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer a i {
+        padding: 1.5rem;
+    }
+
+
+
+    .footer .face {
+        padding: 15px 20px;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .container {
+        width: 375px;
+        height: 900px;
+        background: hsl(257, 40%, 49%) url('/src/images/bg-mobile.svg') no-repeat top;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper {
+        grid-template: "header" 100px
+            "main"
+            "footer" / 1fr;
+        height: 900px;
+        margin: 0;
+        width: 80%;
+    }
+
+
+    /* Header */
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .header .logo img {
+        width: 50%;
+    }
+
+
+    /* Main */
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+
+    /* Sec 1 */
+    .conteudo-principal .mockup img {
+        width: 100%;
+    }
+
+
+    /* Sec 2 */
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start ;
+        align-items: center;
+        height: 100%;
+        margin-left: 0;
+        margin-top: 8rem;
+        width: 100%;
+    }
+
+    .text .titulo-social {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .text .text-social {
+        font-size: 1.6rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .text .register {
+
+        height: 5rem;
+        width: 28rem;
+        font-size: 1.8rem;
+
+        margin-top: 1rem;
+
+
+
+    }
+
+    /* Footer */
+
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer a i {
+        padding: 1.5rem;
+    }
+
+
+
+    .footer .face {
+        padding: 15px 20px;
+    }
+
+}
