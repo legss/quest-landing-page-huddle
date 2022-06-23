@@ -18,7 +18,7 @@ Este desafio, faz parte do treinamento Dev Quest, realizado pelo [Dev-em-Dobro](
 
 ### Live Site
 
-Caso quiser ver como ficou o mini-projeto, eu postei [aqui](https://legss.github.io/desafio-html-css-basico/)
+Caso quiser ver como ficou o mini-projeto, eu postei [aqui](https://legss.github.io/quest-landing-page-huddle/)
 
 
 ### O que foi usado?
