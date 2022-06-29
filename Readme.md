@@ -28,4 +28,4 @@ Caso quiser ver como ficou o mini-projeto, eu postei [aqui](https://legss.github
 
 ### O que eu aprendi
 
-Nesse dasafio, fritei um pouco a mente, com o css e a parte responsiva. Todavia, senti uma maior fluidez, comparado com outros projetos realizados.
+Nesse dasafio, fritei um pouco a mente com o css, na parte responsiva, e para conseguir fazer o "background-image" subir no GitHub Pages. Todavia, comparando com outros projetos realizados, senti uma maior fluidez. Estou evoluindo ^^.
