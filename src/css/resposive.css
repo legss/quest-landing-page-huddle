@@ -39,7 +39,7 @@
     .container {
         width: 768px;
         height: 1600px;
-        background: hsl(257, 40%, 49%) url(../src/images/bg-mobile.svg) no-repeat contain;
+        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat contain;
     }
 
     .wrapper {
@@ -142,7 +142,7 @@
     .container {
         width: 426px;
         height: 1600px;
-        background: hsl(257, 40%, 49%) url(../src/images/bg-mobile.svg) no-repeat contain;
+        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat contain;
         display: flex;
         justify-content: center;
     }
@@ -249,7 +249,7 @@
     .container {
         width: 375px;
         height: 900px;
-        background: hsl(257, 40%, 49%) url('src/images/bg-mobile.svg') no-repeat top;
+        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat top;
         display: flex;
         justify-content: center;
     }
